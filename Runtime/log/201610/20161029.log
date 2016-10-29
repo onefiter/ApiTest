@@ -1,0 +1,66 @@
+2016-10-29 09:56:52|ERROR|User.getbaseInfo|exception 'PDOException' with message 'Table 'phalapi_test.pa_user' doesn't exist' in /Users/onefiter/Documents/workspace/excrise/PhalApi/PhalApi/NotORM/NotORM/Result.php:240
+Stack trace:
+#0 /Users/onefiter/Documents/workspace/excrise/PhalApi/PhalApi/NotORM/NotORM/Result.php(774): NotORM_Result->query('SELECT * FROM p...', Array)
+#1 /Users/onefiter/Documents/workspace/excrise/PhalApi/PhalApi/NotORM/NotORM/Result.php(820): NotORM_Result->execute()
+#2 /Users/onefiter/Documents/workspace/excrise/PhalApi/Demo/Model/User.php(9): NotORM_Result->fetch()
+#3 /Users/onefiter/Documents/workspace/excrise/PhalApi/Demo/Domain/User.php(15): Model_User->getByUserId(5)
+#4 /Users/onefiter/Documents/workspace/excrise/PhalApi/Demo/Api/User.php(30): Domain_User->getBaseInfo(5)
+#5 [internal function]: Api_User->getBaseInfo()
+#6 /Users/onefiter/Documents/workspace/excrise/PhalApi/PhalApi/PhalApi.php(57): call_user_func(Array)
+#7 /Users/onefiter/Documents/workspace/excrise/PhalApi/Public/demo/index.php(14): PhalApi->response()
+#8 {main}
+2016-10-29 09:57:09|DEBUG|user not found|5
+2016-10-29 17:17:21|ERROR|DB.index|exception 'PDOException' with message 'Duplicate entry '0' for key 'PRIMARY'' in /Users/onefiter/Documents/workspace/excrise/PhalApi/PhalApi/NotORM/NotORM/Result.php:240
+Stack trace:
+#0 /Users/onefiter/Documents/workspace/excrise/PhalApi/PhalApi/NotORM/NotORM/Result.php(317): NotORM_Result->query('INSERT INTO tbl...', Array)
+#1 /Users/onefiter/Documents/workspace/excrise/PhalApi/PhalApi/NotORM/NotORM/Result.php(334): NotORM_Result->insert_multi(Array)
+#2 /Users/onefiter/Documents/workspace/excrise/PhalApi/Demo/Api/DB.php(20): NotORM_Result->insert(Array)
+#3 [internal function]: Api_DB->index()
+#4 /Users/onefiter/Documents/workspace/excrise/PhalApi/PhalApi/PhalApi.php(57): call_user_func(Array)
+#5 /Users/onefiter/Documents/workspace/excrise/PhalApi/Public/demo/index.php(14): PhalApi->response()
+#6 {main}
+2016-10-29 17:17:23|ERROR|DB.index|exception 'PDOException' with message 'Duplicate entry '0' for key 'PRIMARY'' in /Users/onefiter/Documents/workspace/excrise/PhalApi/PhalApi/NotORM/NotORM/Result.php:240
+Stack trace:
+#0 /Users/onefiter/Documents/workspace/excrise/PhalApi/PhalApi/NotORM/NotORM/Result.php(317): NotORM_Result->query('INSERT INTO tbl...', Array)
+#1 /Users/onefiter/Documents/workspace/excrise/PhalApi/PhalApi/NotORM/NotORM/Result.php(334): NotORM_Result->insert_multi(Array)
+#2 /Users/onefiter/Documents/workspace/excrise/PhalApi/Demo/Api/DB.php(20): NotORM_Result->insert(Array)
+#3 [internal function]: Api_DB->index()
+#4 /Users/onefiter/Documents/workspace/excrise/PhalApi/PhalApi/PhalApi.php(57): call_user_func(Array)
+#5 /Users/onefiter/Documents/workspace/excrise/PhalApi/Public/demo/index.php(14): PhalApi->response()
+#6 {main}
+2016-10-29 17:17:49|ERROR|DB.index|exception 'PDOException' with message 'Duplicate entry '0' for key 'PRIMARY'' in /Users/onefiter/Documents/workspace/excrise/PhalApi/PhalApi/NotORM/NotORM/Result.php:240
+Stack trace:
+#0 /Users/onefiter/Documents/workspace/excrise/PhalApi/PhalApi/NotORM/NotORM/Result.php(317): NotORM_Result->query('INSERT INTO tbl...', Array)
+#1 /Users/onefiter/Documents/workspace/excrise/PhalApi/PhalApi/NotORM/NotORM/Result.php(334): NotORM_Result->insert_multi(Array)
+#2 /Users/onefiter/Documents/workspace/excrise/PhalApi/Demo/Api/DB.php(20): NotORM_Result->insert(Array)
+#3 [internal function]: Api_DB->index()
+#4 /Users/onefiter/Documents/workspace/excrise/PhalApi/PhalApi/PhalApi.php(57): call_user_func(Array)
+#5 /Users/onefiter/Documents/workspace/excrise/PhalApi/Public/demo/index.php(14): PhalApi->response()
+#6 {main}
+2016-10-29 17:17:50|ERROR|DB.index|exception 'PDOException' with message 'Duplicate entry '0' for key 'PRIMARY'' in /Users/onefiter/Documents/workspace/excrise/PhalApi/PhalApi/NotORM/NotORM/Result.php:240
+Stack trace:
+#0 /Users/onefiter/Documents/workspace/excrise/PhalApi/PhalApi/NotORM/NotORM/Result.php(317): NotORM_Result->query('INSERT INTO tbl...', Array)
+#1 /Users/onefiter/Documents/workspace/excrise/PhalApi/PhalApi/NotORM/NotORM/Result.php(334): NotORM_Result->insert_multi(Array)
+#2 /Users/onefiter/Documents/workspace/excrise/PhalApi/Demo/Api/DB.php(20): NotORM_Result->insert(Array)
+#3 [internal function]: Api_DB->index()
+#4 /Users/onefiter/Documents/workspace/excrise/PhalApi/PhalApi/PhalApi.php(57): call_user_func(Array)
+#5 /Users/onefiter/Documents/workspace/excrise/PhalApi/Public/demo/index.php(14): PhalApi->response()
+#6 {main}
+2016-10-29 17:20:26|ERROR|DB.index|exception 'PDOException' with message 'Duplicate entry '0' for key 'PRIMARY'' in /Users/onefiter/Documents/workspace/excrise/PhalApi/PhalApi/NotORM/NotORM/Result.php:240
+Stack trace:
+#0 /Users/onefiter/Documents/workspace/excrise/PhalApi/PhalApi/NotORM/NotORM/Result.php(317): NotORM_Result->query('INSERT INTO tbl...', Array)
+#1 /Users/onefiter/Documents/workspace/excrise/PhalApi/PhalApi/NotORM/NotORM/Result.php(334): NotORM_Result->insert_multi(Array)
+#2 /Users/onefiter/Documents/workspace/excrise/PhalApi/Demo/Api/DB.php(20): NotORM_Result->insert(Array)
+#3 [internal function]: Api_DB->index()
+#4 /Users/onefiter/Documents/workspace/excrise/PhalApi/PhalApi/PhalApi.php(57): call_user_func(Array)
+#5 /Users/onefiter/Documents/workspace/excrise/PhalApi/Public/demo/index.php(14): PhalApi->response()
+#6 {main}
+2016-10-29 17:20:53|ERROR|DB.index|exception 'PDOException' with message 'Duplicate entry '0' for key 'PRIMARY'' in /Users/onefiter/Documents/workspace/excrise/PhalApi/PhalApi/NotORM/NotORM/Result.php:240
+Stack trace:
+#0 /Users/onefiter/Documents/workspace/excrise/PhalApi/PhalApi/NotORM/NotORM/Result.php(317): NotORM_Result->query('INSERT INTO tbl...', Array)
+#1 /Users/onefiter/Documents/workspace/excrise/PhalApi/PhalApi/NotORM/NotORM/Result.php(334): NotORM_Result->insert_multi(Array)
+#2 /Users/onefiter/Documents/workspace/excrise/PhalApi/Demo/Api/DB.php(20): NotORM_Result->insert(Array)
+#3 [internal function]: Api_DB->index()
+#4 /Users/onefiter/Documents/workspace/excrise/PhalApi/PhalApi/PhalApi.php(57): call_user_func(Array)
+#5 /Users/onefiter/Documents/workspace/excrise/PhalApi/Public/demo/index.php(14): PhalApi->response()
+#6 {main}
