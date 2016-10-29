@@ -35,9 +35,10 @@ class Api_User extends PhalApi_Api {
    public  function  useradd()
    {
        $Domain_User = new Domain_User();
-
+       //验证用户名称是否存在
+       $Domain_User->checkUsername($this->username);
        return $Domain_User ->useradd($this);
-        
+
    }
     /**
      * 用户登录

@@ -15,4 +15,13 @@ class Model_User extends PhalApi_Model_NotORM {
             'time'=>time()
         ));
     }
+
+    /**
+     * 通过用户名获取信息
+     */
+    public  function getInfoByUserName($username)
+    {
+        //查询语句
+        return $this->getORM()->where('username', $username)->fetch();
+    }
 }
